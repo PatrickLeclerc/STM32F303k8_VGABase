@@ -1,0 +1,25 @@
+Dependencies for Project 'stm32f303k8_tx', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6160000::V6.16::ARMCLANG
+F (.\main.c)(0x620046F0)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O3 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/_Target_1-IC:/Users/pa-tr/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/pa-tr/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.2.1/Drivers/CMSIS/Device/ST/STM32F3xx/Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F303x8 -D_RTE_  -include "Pre_Include_Global.h"-o ./objects/main.o -MD)
+I (RTE\_Target_1\Pre_Include_Global.h)(0x620018EE)
+I (main.h)(0x62003894)
+I (C:\Users\pa-tr\AppData\Local\Arm\Packs\Keil\STM32F3xx_DFP\2.2.1\Drivers\CMSIS\Device\ST\STM32F3xx\Include\stm32f303x8.h)(0x5FC7B2BA)
+I (C:\Users\pa-tr\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D491A2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035B090)
+I (C:\Users\pa-tr\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D491A2)
+I (C:\Users\pa-tr\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D491A2)
+I (C:\Users\pa-tr\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D491A2)
+I (C:\Users\pa-tr\AppData\Local\Arm\Packs\Keil\STM32F3xx_DFP\2.2.1\Drivers\CMSIS\Device\ST\STM32F3xx\Include\system_stm32f3xx.h)(0x5FC7B2BA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6035B090)
+F (.\main.h)(0x62003894)()
+F (RTE\Device\STM32F303K8Tx\startup_stm32f303x8.s)(0x5FC7B2BA)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto -c-gdwarf-3 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/_Target_1-IC:/Users/pa-tr/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/pa-tr/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.2.1/Drivers/CMSIS/Device/ST/STM32F3xx/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 535" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"STM32F303x8 SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_stm32f303x8.o)
+F (RTE\Device\STM32F303K8Tx\system_stm32f3xx.c)(0x5FC7B2BA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O3 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/_Target_1-IC:/Users/pa-tr/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/pa-tr/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.2.1/Drivers/CMSIS/Device/ST/STM32F3xx/Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F303x8 -D_RTE_  -include "Pre_Include_Global.h"-o ./objects/system_stm32f3xx.o -MD)
+I (RTE\_Target_1\Pre_Include_Global.h)(0x620018EE)
+I (C:\Users\pa-tr\AppData\Local\Arm\Packs\Keil\STM32F3xx_DFP\2.2.1\Drivers\CMSIS\Device\ST\STM32F3xx\Include\stm32f3xx.h)(0x5FC7B2BA)
+I (C:\Users\pa-tr\AppData\Local\Arm\Packs\Keil\STM32F3xx_DFP\2.2.1\Drivers\CMSIS\Device\ST\STM32F3xx\Include\stm32f303x8.h)(0x5FC7B2BA)
+I (C:\Users\pa-tr\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D491A2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035B090)
+I (C:\Users\pa-tr\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D491A2)
+I (C:\Users\pa-tr\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D491A2)
+I (C:\Users\pa-tr\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D491A2)
+I (C:\Users\pa-tr\AppData\Local\Arm\Packs\Keil\STM32F3xx_DFP\2.2.1\Drivers\CMSIS\Device\ST\STM32F3xx\Include\system_stm32f3xx.h)(0x5FC7B2BA)
